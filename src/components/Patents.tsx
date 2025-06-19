@@ -15,7 +15,7 @@ export default function Patents() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">        
-        <h2 className="font-inter font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center animate-fade-in">
+        <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center animate-fade-in">
           Featured Patents
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
@@ -34,13 +34,13 @@ export default function Patents() {
                   </div>
                 </div>
                 <div>
-                  <div className="font-ibm-plex-mono text-sm text-pulse-teal mb-1 animate-pulse-slow">
+                  <div className="font-satoshi-regular-mono text-sm text-pulse-teal mb-1 animate-pulse-slow">
                     {patent.id}
                   </div>                  
-                  <h3 className="font-inter font-bold text-xl text-quantum-blue mb-2 hover:text-signal-violet transition-colors">
+                  <h3 className="font-satoshi-bold font-bold text-xl text-quantum-blue mb-2 hover:text-signal-violet transition-colors">
                     {patent.title}
                   </h3>
-                  <p className="font-ibm-plex text-gray-600">
+                  <p className="font-satoshi-regular text-gray-600">
                     {patent.description}
                   </p>
                 </div>

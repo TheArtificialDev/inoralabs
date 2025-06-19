@@ -116,10 +116,10 @@ export default function CareersPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               Careers at INORA LABs
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               Join us in our mission to Engineer the Edge of Possibility. and build technologies that shape the future.
             </p>
           </div>
@@ -130,15 +130,15 @@ export default function CareersPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="font-inter font-bold text-3xl mb-6 text-quantum-blue">Working at INORA</h2>
-            <p className="font-ibm-plex text-lg text-gray-600">
+            <h2 className="font-satoshi-bold font-bold text-3xl mb-6 text-quantum-blue">Working at INORA</h2>
+            <p className="font-satoshi-regular text-lg text-gray-600">
               We're not hiring yet—but we're always watching. If you're bold, self-driven, and live for moonshots, we want to hear from you.
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-fog-gray rounded-2xl p-8">
-              <h3 className="font-inter font-bold text-2xl mb-6 text-quantum-blue">What We Look For</h3>
+              <h3 className="font-satoshi-bold font-bold text-2xl mb-6 text-quantum-blue">What We Look For</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
@@ -146,7 +146,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-gray-600">
+                  <p className="ml-3 font-satoshi-regular text-gray-600">
                     <span className="font-medium text-quantum-blue">Bold thinkers:</span> People who aren't afraid to pursue ambitious ideas and challenge conventional wisdom.
                   </p>
                 </li>
@@ -156,7 +156,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-gray-600">
+                  <p className="ml-3 font-satoshi-regular text-gray-600">
                     <span className="font-medium text-quantum-blue">Self-starters:</span> Individuals who take initiative and don't need constant direction to make progress.
                   </p>
                 </li>
@@ -166,7 +166,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-gray-600">
+                  <p className="ml-3 font-satoshi-regular text-gray-600">
                     <span className="font-medium text-quantum-blue">Continuous learners:</span> Those who are constantly expanding their knowledge and skills.
                   </p>
                 </li>
@@ -176,7 +176,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-gray-600">
+                  <p className="ml-3 font-satoshi-regular text-gray-600">
                     <span className="font-medium text-quantum-blue">Problem solvers:</span> People who see challenges as opportunities and find creative solutions.
                   </p>
                 </li>
@@ -184,7 +184,7 @@ export default function CareersPage() {
             </div>
             
             <div className="bg-quantum-blue text-white rounded-2xl p-8">
-              <h3 className="font-inter font-bold text-2xl mb-6">Areas of Interest</h3>
+              <h3 className="font-satoshi-bold font-bold text-2xl mb-6">Areas of Interest</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
@@ -192,7 +192,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-fog-gray/90">
+                  <p className="ml-3 font-satoshi-regular text-fog-gray/90">
                     <span className="font-medium text-white">Machine Learning & AI:</span> Researchers and engineers with experience in deep learning, reinforcement learning, and NLP.
                   </p>
                 </li>
@@ -203,7 +203,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-fog-gray/90">
+                  <p className="ml-3 font-satoshi-regular text-fog-gray/90">
                     <span className="font-medium text-white">Computer Vision:</span> Specialists in image processing, object detection, and visual analysis.
                   </p>
                 </li>
@@ -213,7 +213,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-fog-gray/90">
+                  <p className="ml-3 font-satoshi-regular text-fog-gray/90">
                     <span className="font-medium text-white">Drone Technology:</span> Engineers with knowledge of aerial systems, flight control, and sensor integration.
                   </p>
                 </li>
@@ -223,7 +223,7 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
                     </svg>
                   </div>
-                  <p className="ml-3 font-ibm-plex text-fog-gray/90">
+                  <p className="ml-3 font-satoshi-regular text-fog-gray/90">
                     <span className="font-medium text-white">Data Science:</span> Professionals skilled in data collection, preprocessing, and analysis for AI training.
                   </p>
                 </li>
@@ -236,7 +236,7 @@ export default function CareersPage() {
       {/* Benefits Section */}
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue text-center">Why Work Here?</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue text-center">Why Work Here?</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
@@ -244,10 +244,10 @@ export default function CareersPage() {
                 <div className="text-signal-violet mb-6">
                   {benefit.icon}
                 </div>
-                <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+                <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                   {benefit.title}
                 </h3>
-                <p className="font-ibm-plex text-gray-600">
+                <p className="font-satoshi-regular text-gray-600">
                   {benefit.description}
                 </p>
               </div>
@@ -260,8 +260,8 @@ export default function CareersPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="font-inter font-bold text-3xl mb-6 text-quantum-blue text-center">Join Our Interest List</h2>
-            <p className="font-ibm-plex text-gray-600 text-center mb-12">
+            <h2 className="font-satoshi-bold font-bold text-3xl mb-6 text-quantum-blue text-center">Join Our Interest List</h2>
+            <p className="font-satoshi-regular text-gray-600 text-center mb-12">
               Leave your details, and we'll reach out when positions open that match your skills and interests.
             </p>
             
@@ -272,8 +272,8 @@ export default function CareersPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="font-inter font-bold text-2xl mb-2 text-quantum-blue">Thank You!</h3>
-                <p className="font-ibm-plex text-gray-600 mb-4">
+                <h3 className="font-satoshi-bold font-bold text-2xl mb-2 text-quantum-blue">Thank You!</h3>
+                <p className="font-satoshi-regular text-gray-600 mb-4">
                   We've added you to our talent pool. We'll be in touch when opportunities arise that match your profile.
                 </p>
               </div>
@@ -281,7 +281,7 @@ export default function CareersPage() {
               <form onSubmit={handleSubmit} className="bg-fog-gray rounded-2xl p-8">
                 <div className="space-y-6">
                   <div>
-                    <label htmlFor="name" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+                    <label htmlFor="name" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
                       Full Name
                     </label>
                     <input
@@ -290,13 +290,13 @@ export default function CareersPage() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
                       required
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="email" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+                    <label htmlFor="email" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
                       Email Address
                     </label>
                     <input
@@ -305,13 +305,13 @@ export default function CareersPage() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
                       required
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="interests" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+                    <label htmlFor="interests" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
                       Areas of Interest
                     </label>
                     <select
@@ -319,7 +319,7 @@ export default function CareersPage() {
                       name="interests"
                       value={formData.interests}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
                       required
                     >
                       <option value="">Select primary area of interest</option>
@@ -332,7 +332,7 @@ export default function CareersPage() {
                   </div>
                   
                   <div>
-                    <label htmlFor="experience" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+                    <label htmlFor="experience" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
                       Years of Experience
                     </label>
                     <select
@@ -340,7 +340,7 @@ export default function CareersPage() {
                       name="experience"
                       value={formData.experience}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
                       required
                     >
                       <option value="">Select experience level</option>
@@ -352,7 +352,7 @@ export default function CareersPage() {
                   </div>
                   
                   <div>
-                    <label htmlFor="portfolio" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+                    <label htmlFor="portfolio" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
                       Portfolio/GitHub URL (optional)
                     </label>
                     <input
@@ -361,7 +361,7 @@ export default function CareersPage() {
                       name="portfolio"
                       value={formData.portfolio}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+                      className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
                     />
                   </div>
                   

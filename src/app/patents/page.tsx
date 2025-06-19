@@ -76,10 +76,10 @@ export default function PatentsPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               Patents & IP
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               Explore the heart of our innovation—the intellectual properties that define tomorrow's systems.
             </p>
           </div>
@@ -89,17 +89,17 @@ export default function PatentsPage() {
       {/* Patents Directory */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Patent Directory</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Patent Directory</h2>
           
           <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 rounded-lg">
             <table className="min-w-full divide-y divide-gray-300">
               <thead className="bg-fog-gray">
                 <tr>
-                  <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-inter font-semibold text-quantum-blue sm:pl-6">Patent ID</th>
-                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-inter font-semibold text-quantum-blue">Title</th>
-                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-inter font-semibold text-quantum-blue">Domain</th>
-                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-inter font-semibold text-quantum-blue">Filing Year</th>
-                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-inter font-semibold text-quantum-blue">Status</th>
+                  <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-satoshi-bold font-semibold text-quantum-blue sm:pl-6">Patent ID</th>
+                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-satoshi-bold font-semibold text-quantum-blue">Title</th>
+                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-satoshi-bold font-semibold text-quantum-blue">Domain</th>
+                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-satoshi-bold font-semibold text-quantum-blue">Filing Year</th>
+                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-satoshi-bold font-semibold text-quantum-blue">Status</th>
                   <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-6">
                     <span className="sr-only">View</span>
                   </th>
@@ -108,16 +108,16 @@ export default function PatentsPage() {
               <tbody className="divide-y divide-gray-200 bg-white">
                 {patents.map((patent) => (
                   <tr key={patent.id} className="hover:bg-fog-gray/30 transition-colors">
-                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-ibm-plex-mono text-pulse-teal sm:pl-6">{patent.id}</td>
-                    <td className="whitespace-nowrap px-3 py-4 text-sm font-ibm-plex font-medium text-quantum-blue">{patent.title}</td>
-                    <td className="whitespace-nowrap px-3 py-4 text-sm font-ibm-plex text-gray-600">{patent.domain}</td>
-                    <td className="whitespace-nowrap px-3 py-4 text-sm font-ibm-plex text-gray-600">{patent.year}</td>
+                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-satoshi-regular-mono text-pulse-teal sm:pl-6">{patent.id}</td>
+                    <td className="whitespace-nowrap px-3 py-4 text-sm font-satoshi-regular font-medium text-quantum-blue">{patent.title}</td>
+                    <td className="whitespace-nowrap px-3 py-4 text-sm font-satoshi-regular text-gray-600">{patent.domain}</td>
+                    <td className="whitespace-nowrap px-3 py-4 text-sm font-satoshi-regular text-gray-600">{patent.year}</td>
                     <td className="whitespace-nowrap px-3 py-4 text-sm">
-                      <span className={`inline-flex rounded-full px-2 py-1 text-xs font-ibm-plex font-medium ${statusColors[patent.status as keyof typeof statusColors]}`}>
+                      <span className={`inline-flex rounded-full px-2 py-1 text-xs font-satoshi-regular font-medium ${statusColors[patent.status as keyof typeof statusColors]}`}>
                         {patent.status}
                       </span>
                     </td>
-                    <td className="whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-ibm-plex sm:pr-6">
+                    <td className="whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-satoshi-regular sm:pr-6">
                       <span className="text-signal-violet font-medium">Coming soon</span>
                     </td>
                   </tr>
@@ -131,28 +131,28 @@ export default function PatentsPage() {
       {/* Licensing Process */}
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Licensing Process</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Licensing Process</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-quantum-blue text-white flex items-center justify-center text-xl font-inter font-bold mb-6">1</div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">Initial Interest</h3>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <div className="w-12 h-12 rounded-full bg-quantum-blue text-white flex items-center justify-center text-xl font-satoshi-bold font-bold mb-6">1</div>
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">Initial Interest</h3>
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 Contact us with your licensing needs. Tell us which patents you're interested in and your use case.
               </p>
             </div>
             
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-quantum-blue text-white flex items-center justify-center text-xl font-inter font-bold mb-6">2</div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">Review</h3>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <div className="w-12 h-12 rounded-full bg-quantum-blue text-white flex items-center justify-center text-xl font-satoshi-bold font-bold mb-6">2</div>
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">Review</h3>
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 We'll schedule a briefing and IP demo to showcase the technology and discuss potential applications.
               </p>
             </div>
             
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-quantum-blue text-white flex items-center justify-center text-xl font-inter font-bold mb-6">3</div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">Agreement</h3>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <div className="w-12 h-12 rounded-full bg-quantum-blue text-white flex items-center justify-center text-xl font-satoshi-bold font-bold mb-6">3</div>
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">Agreement</h3>
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 We'll work together to create customized license terms that suit your business needs and use cases.
               </p>
             </div>
@@ -163,7 +163,7 @@ export default function PatentsPage() {
       {/* Case Snapshots */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Case Snapshots</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Case Snapshots</h2>
           
           <div className="bg-fog-gray rounded-2xl p-8 shadow-sm">
             <div className="flex items-start">
@@ -175,13 +175,13 @@ export default function PatentsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-xl mb-2 text-quantum-blue">
+                <h3 className="font-satoshi-bold font-bold text-xl mb-2 text-quantum-blue">
                   INORA-002 licensed to X-Corp
                 </h3>
-                <p className="font-ibm-plex text-gray-600 mb-4">
+                <p className="font-satoshi-regular text-gray-600 mb-4">
                   Our Dynamic Drone Pathing System is now powering X-Corp's aerial surveillance solutions, enabling efficient drone pathing in high-wind environments.
                 </p>
-                <div className="flex items-center text-sm font-ibm-plex text-gray-500">
+                <div className="flex items-center text-sm font-satoshi-regular text-gray-500">
                   <span>Licensed in 2024</span>
                   <span className="mx-2">•</span>
                   <span>Drone Technology</span>
@@ -193,10 +193,10 @@ export default function PatentsPage() {
       </section>      {/* CTA Section */}
       <section className="py-12 bg-quantum-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-inter font-bold text-3xl mb-6">
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-6">
             Interested in licensing our technology?
           </h2>
-          <p className="font-ibm-plex text-fog-gray/90 max-w-2xl mx-auto mb-6">
+          <p className="font-satoshi-regular text-fog-gray/90 max-w-2xl mx-auto mb-6">
             We're open to partnerships and licensing arrangements that help bring our innovations to market and create impact.
           </p>
           <Link href="/contact">

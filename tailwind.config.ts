@@ -8,9 +8,9 @@ const config: Config = {
   ],
   // @ts-ignore - Safelist is not in the type definition but is a valid property
   safelist: [
-    'font-inter',
-    'font-ibm-plex',
-    'font-ibm-plex-mono',
+    'font-satoshi-regular',
+    'font-satoshi-medium',
+    'font-satoshi-bold',
     'text-quantum-blue',
     'bg-quantum-blue',
     'text-pulse-teal',
@@ -31,12 +31,13 @@ const config: Config = {
         'obsidian-black': '#0F0F0F',
         'fog-gray': '#ECEFF1',
       },      fontFamily: {
-        'inter': ['var(--font-inter)', 'sans-serif'],
-        'ibm-plex': ['var(--font-ibm-plex-sans)', 'sans-serif'],
-        'ibm-plex-mono': ['var(--font-ibm-plex-mono)', 'monospace'],
+        'satoshi-regular': ['Satoshi', 'sans-serif'],
+        'satoshi-medium': ['Satoshi', 'sans-serif'],
+        'satoshi-bold': ['Satoshi', 'sans-serif'],
       },
     },
   },
   plugins: [],
 }
+
 export default config

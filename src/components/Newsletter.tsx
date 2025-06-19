@@ -50,7 +50,7 @@ export default function Newsletter() {
   return (
     <div className="bg-gradient-to-r from-quantum-blue to-signal-violet text-white py-6 px-4 rounded-2xl shadow-lg animate-fade-in">
       <div className="max-w-md mx-auto">
-        <h3 className="font-inter font-bold text-xl mb-2 text-white">Stay Updated on AI Innovation</h3>
+        <h3 className="font-satoshi-bold font-bold text-xl mb-2 text-white">Stay Updated on AI Innovation</h3>
         <p className="text-sm text-white/90 mb-4">
           Subscribe to our newsletter and be the first to know about:
         </p>

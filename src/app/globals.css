@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font declarations */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -77,16 +102,16 @@
   }
 
   body {
-    @apply antialiased font-ibm-plex;
+    @apply antialiased font-satoshi-regular;
   }
 
   /* Typography */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-inter font-bold text-quantum-blue;
+    @apply font-satoshi-bold font-bold text-quantum-blue;
   }
 
   p {
-    @apply font-ibm-plex text-gray-600;
+    @apply font-satoshi-regular text-gray-600;
   }
 
   /* Links */
@@ -96,13 +121,13 @@
 
   /* Code blocks */
   code {
-    @apply font-ibm-plex-mono;
+    @apply font-satoshi-medium;
   }
 }
 
 @layer components {
   .btn {
-    @apply inline-flex items-center justify-center font-inter font-medium rounded-full transition-all duration-200;
+    @apply inline-flex items-center justify-center font-satoshi-bold font-medium rounded-full transition-all duration-200;
   }
 
   .btn-primary {

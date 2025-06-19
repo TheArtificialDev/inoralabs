@@ -9,15 +9,15 @@ export default function ContactPage() {
       
       <div className="pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="font-inter font-bold text-4xl md:text-5xl text-quantum-blue mb-8 text-center">
+          <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl text-quantum-blue mb-8 text-center">
             Contact Us
           </h1>
           
           <div className="max-w-3xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h2 className="font-inter font-bold text-2xl mb-4">Reach Out</h2>
-                <p className="font-ibm-plex text-gray-600 mb-6">
+                <h2 className="font-satoshi-bold font-bold text-2xl mb-4">Reach Out</h2>
+                <p className="font-satoshi-regular text-gray-600 mb-6">
                   Whether you're interested in licensing our technologies, exploring a research partnership, or just want to learn more about what we do, we'd love to hear from you.
                 </p>
                 
@@ -29,8 +29,8 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-ibm-plex-mono text-sm text-quantum-blue">Email</div>
-                      <a href="mailto:info@inoralabs.com" className="font-ibm-plex text-signal-violet hover:underline">
+                      <div className="font-satoshi-regular-mono text-sm text-quantum-blue">Email</div>
+                      <a href="mailto:info@inoralabs.com" className="font-satoshi-regular text-signal-violet hover:underline">
                         info@inoralabs.com
                       </a>
                     </div>
@@ -44,8 +44,8 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-ibm-plex-mono text-sm text-quantum-blue">Location</div>
-                      <div className="font-ibm-plex text-gray-600">
+                      <div className="font-satoshi-regular-mono text-sm text-quantum-blue">Location</div>
+                      <div className="font-satoshi-regular text-gray-600">
                         San Francisco, CA
                       </div>
                     </div>

@@ -57,8 +57,8 @@ export default function ContactForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="font-inter font-bold text-2xl mb-2">Thank You!</h3>
-        <p className="font-ibm-plex text-gray-600 mb-4">
+        <h3 className="font-satoshi-bold font-bold text-2xl mb-2">Thank You!</h3>
+        <p className="font-satoshi-regular text-gray-600 mb-4">
           We've received your message and will get back to you shortly.
         </p>
       </div>
@@ -67,11 +67,11 @@ export default function ContactForm() {
   
   return (
     <form onSubmit={handleSubmit} className="bg-fog-gray rounded-2xl p-8">
-      <h3 className="font-inter font-bold text-2xl mb-6">Get in Touch</h3>
+      <h3 className="font-satoshi-bold font-bold text-2xl mb-6">Get in Touch</h3>
       
       <div className="space-y-4">
         <div>
-          <label htmlFor="name" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+          <label htmlFor="name" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
             Full Name
           </label>
           <input
@@ -80,13 +80,13 @@ export default function ContactForm() {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
             required
           />
         </div>
         
         <div>
-          <label htmlFor="email" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+          <label htmlFor="email" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
             Email Address
           </label>
           <input
@@ -95,13 +95,13 @@ export default function ContactForm() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
             required
           />
         </div>
         
         <div>
-          <label htmlFor="subject" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+          <label htmlFor="subject" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
             Subject
           </label>
           <select
@@ -109,7 +109,7 @@ export default function ContactForm() {
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
             required
           >
             <option value="">Select an option</option>
@@ -121,7 +121,7 @@ export default function ContactForm() {
         </div>
         
         <div>
-          <label htmlFor="message" className="block font-ibm-plex text-sm text-quantum-blue mb-1">
+          <label htmlFor="message" className="block font-satoshi-regular text-sm text-quantum-blue mb-1">
             Message
           </label>
           <textarea
@@ -130,7 +130,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             rows={4}
-            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-ibm-plex"
+            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-signal-violet/50 focus:border-signal-violet font-satoshi-regular"
             required
           ></textarea>
         </div>

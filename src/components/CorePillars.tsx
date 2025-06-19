@@ -30,7 +30,7 @@ export default function CorePillars() {
   ];  return (
     <section className="py-24 bg-fog-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-inter font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center animate-fade-in">
+        <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center animate-fade-in">
           <span className="bg-gradient-to-r from-quantum-blue via-pulse-teal to-signal-violet bg-clip-text text-transparent">Our Core Pillars</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-12">
@@ -43,10 +43,10 @@ export default function CorePillars() {
               <div className="text-pulse-teal mb-6 transform transition-transform duration-500 hover:scale-125 hover:rotate-12 animate-float">
                 {pillar.icon}
               </div>
-              <h3 className="font-inter font-bold text-2xl mb-4 text-quantum-blue hover:text-signal-violet transition-colors duration-300">
+              <h3 className="font-satoshi-bold font-bold text-2xl mb-4 text-quantum-blue hover:text-signal-violet transition-colors duration-300">
                 {pillar.title}
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 {pillar.description}
               </p>
             </div>

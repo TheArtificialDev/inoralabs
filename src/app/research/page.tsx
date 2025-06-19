@@ -71,10 +71,10 @@ export default function ResearchPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               Research & Publications
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               We are committed to open dialogue, peer-reviewed contribution, and impactful documentation.
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function ResearchPage() {
       {/* Categories Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Research Categories</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Research Categories</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-fog-gray rounded-2xl p-8">
@@ -93,8 +93,8 @@ export default function ResearchPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">Technical Papers</h3>
-              <p className="font-ibm-plex text-gray-600">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">Technical Papers</h3>
+              <p className="font-satoshi-regular text-gray-600">
                 Core algorithms, systems architecture, performance benchmarks, and detailed experimental results.
               </p>
             </div>
@@ -105,8 +105,8 @@ export default function ResearchPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">White Papers</h3>
-              <p className="font-ibm-plex text-gray-600">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">White Papers</h3>
+              <p className="font-satoshi-regular text-gray-600">
                 Domain analyses, conceptual frameworks, roadmap recommendations, and industry insights.
               </p>
             </div>
@@ -117,8 +117,8 @@ export default function ResearchPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">Articles</h3>
-              <p className="font-ibm-plex text-gray-600">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">Articles</h3>
+              <p className="font-satoshi-regular text-gray-600">
                 Commentary, reflections, and ongoing studies designed to provoke thought and discussion.
               </p>
             </div>
@@ -129,30 +129,30 @@ export default function ResearchPage() {
       {/* Publications List */}
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Recent Publications</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Recent Publications</h2>
           
           <div className="space-y-8">
             {researchPapers.map((paper, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 shadow-sm">
                 <div className="flex flex-col md:flex-row md:items-start">
                   <div className="md:w-3/4 mb-4 md:mb-0 md:pr-8">
-                    <span className={`inline-flex rounded-full px-3 py-1 text-xs font-ibm-plex font-medium mb-4 ${categoryColors[paper.category as keyof typeof categoryColors]}`}>
+                    <span className={`inline-flex rounded-full px-3 py-1 text-xs font-satoshi-regular font-medium mb-4 ${categoryColors[paper.category as keyof typeof categoryColors]}`}>
                       {paper.category}
                     </span>
-                    <h3 className="font-inter font-bold text-xl mb-2 text-quantum-blue">
+                    <h3 className="font-satoshi-bold font-bold text-xl mb-2 text-quantum-blue">
                       {paper.title}
                     </h3>
-                    <p className="font-ibm-plex text-gray-500 mb-2">
+                    <p className="font-satoshi-regular text-gray-500 mb-2">
                       {paper.authors} • {paper.year}
                     </p>
-                    <p className="font-ibm-plex text-gray-600">
+                    <p className="font-satoshi-regular text-gray-600">
                       {paper.abstract}
                     </p>
                   </div>
                   <div className="md:w-1/4 flex justify-end items-center">
                     <a 
                       href={paper.link} 
-                      className="inline-flex items-center font-ibm-plex text-signal-violet hover:text-signal-violet/80"
+                      className="inline-flex items-center font-satoshi-regular text-signal-violet hover:text-signal-violet/80"
                       onClick={(e) => {
                         e.preventDefault();
                         window.alert(`Download link for: ${paper.title}`);
@@ -174,10 +174,10 @@ export default function ResearchPage() {
       {/* CTA Section */}
       <section className="py-20 bg-quantum-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-inter font-bold text-3xl mb-6">
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-6">
             Interested in collaborating on research?
           </h2>
-          <p className="font-ibm-plex text-fog-gray/90 max-w-2xl mx-auto mb-8">
+          <p className="font-satoshi-regular text-fog-gray/90 max-w-2xl mx-auto mb-8">
             We're always open to research partnerships and academic collaborations that push the boundaries of what's possible.
           </p>
           <Link href="/contact">

@@ -103,10 +103,10 @@ export default function TechnologyPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               Our Technology
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               Building the future through research, innovation, and technical excellence
             </p>
           </div>
@@ -122,10 +122,10 @@ export default function TechnologyPage() {
                 <div className="text-signal-violet mb-6">
                   {tech.icon}
                 </div>
-                <h3 className="font-inter font-bold text-2xl mb-4 text-quantum-blue">
+                <h3 className="font-satoshi-bold font-bold text-2xl mb-4 text-quantum-blue">
                   {tech.title}
                 </h3>
-                <p className="font-ibm-plex text-gray-600 mb-6">
+                <p className="font-satoshi-regular text-gray-600 mb-6">
                   {tech.description}
                 </p>
                 <Button variant="secondary" size="sm">
@@ -141,10 +141,10 @@ export default function TechnologyPage() {
       <section className="py-20 bg-quantum-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-inter font-bold text-3xl md:text-4xl mb-6">
+            <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl mb-6">
               Our Research Approach
             </h2>
-            <p className="font-ibm-plex text-fog-gray/90">
+            <p className="font-satoshi-regular text-fog-gray/90">
               We approach every problem with scientific rigor, combining theoretical insights with practical applications to create technologies that make a difference.
             </p>
           </div>
@@ -156,10 +156,10 @@ export default function TechnologyPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-white">
                 Literature Research
               </h3>
-              <p className="font-ibm-plex text-fog-gray/80">
+              <p className="font-satoshi-regular text-fog-gray/80">
                 We stay at the cutting edge by constantly surveying the latest research in our fields of interest.
               </p>
             </div>
@@ -170,10 +170,10 @@ export default function TechnologyPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-white">
                 Experimentation
               </h3>
-              <p className="font-ibm-plex text-fog-gray/80">
+              <p className="font-satoshi-regular text-fog-gray/80">
                 We design and conduct rigorous experiments to validate our hypotheses and refine our approaches.
               </p>
             </div>
@@ -184,10 +184,10 @@ export default function TechnologyPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-white">
                 IP Development
               </h3>
-              <p className="font-ibm-plex text-fog-gray/80">
+              <p className="font-satoshi-regular text-fog-gray/80">
                 We identify and protect novel approaches through a comprehensive IP strategy, building a strong patent portfolio.
               </p>
             </div>
@@ -198,26 +198,26 @@ export default function TechnologyPage() {
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-inter font-bold text-3xl md:text-4xl mb-6">
+            <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl mb-6">
               Patent Highlights
             </h2>
-            <p className="font-ibm-plex text-gray-600">
+            <p className="font-satoshi-regular text-gray-600">
               Each patent is built on deep research and represents a meaningful contribution to the field.
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="font-ibm-plex-mono text-sm text-pulse-teal mb-2">
+              <div className="font-satoshi-regular-mono text-sm text-pulse-teal mb-2">
                 INORA-001
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Autonomous Self-Tuning Neural Optimizer
               </h3>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 An optimizer that tunes itself based on contextual meta-feedback.
               </p>
-              <a href="/patents" className="font-ibm-plex text-signal-violet hover:text-signal-violet/80 transition-colors flex items-center">
+              <a href="/patents" className="font-satoshi-regular text-signal-violet hover:text-signal-violet/80 transition-colors flex items-center">
                 <span>View Technical Details</span>
                 <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -226,16 +226,16 @@ export default function TechnologyPage() {
             </div>
             
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="font-ibm-plex-mono text-sm text-pulse-teal mb-2">
+              <div className="font-satoshi-regular-mono text-sm text-pulse-teal mb-2">
                 INORA-003
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Temporal Adaptation Layer
               </h3>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 A novel framework for multi-modal systems that adapts over time.
               </p>
-              <a href="/patents" className="font-ibm-plex text-signal-violet hover:text-signal-violet/80 transition-colors flex items-center">
+              <a href="/patents" className="font-satoshi-regular text-signal-violet hover:text-signal-violet/80 transition-colors flex items-center">
                 <span>View Technical Details</span>
                 <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -244,16 +244,16 @@ export default function TechnologyPage() {
             </div>
             
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="font-ibm-plex-mono text-sm text-pulse-teal mb-2">
+              <div className="font-satoshi-regular-mono text-sm text-pulse-teal mb-2">
                 INORA-004
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Modular Drone Surveillance Framework
               </h3>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 A scalable, modular system for drone-based area intelligence.
               </p>
-              <a href="/patents" className="font-ibm-plex text-signal-violet hover:text-signal-violet/80 transition-colors flex items-center">
+              <a href="/patents" className="font-satoshi-regular text-signal-violet hover:text-signal-violet/80 transition-colors flex items-center">
                 <span>View Technical Details</span>
                 <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -269,13 +269,13 @@ export default function TechnologyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-quantum-blue text-white rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between">
             <div className="mb-6 md:mb-0 md:mr-8">
-              <h3 className="font-inter font-bold text-2xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-2xl mb-4 text-white">
                 Why Agentic AI is the Future
               </h3>
-              <p className="font-ibm-plex text-white/90 mb-6">
+              <p className="font-satoshi-regular text-white/90 mb-6">
                 Read our latest technical reflection on creating goal-oriented AI agents.
               </p>
-              <a href="/blog" className="font-ibm-plex text-white inline-flex items-center bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30 transition-colors">
+              <a href="/blog" className="font-satoshi-regular text-white inline-flex items-center bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30 transition-colors">
                 <span>Read the Article</span>
                 <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -283,10 +283,10 @@ export default function TechnologyPage() {
               </a>
             </div>
             <div className="flex-shrink-0 w-full md:w-1/3 bg-white/20 rounded-xl p-6">
-              <div className="font-ibm-plex-mono text-xs text-white/80">
+              <div className="font-satoshi-regular-mono text-xs text-white/80">
                 June 15, 2025
               </div>
-              <h4 className="font-inter font-bold text-lg mt-2 mb-4 text-white">
+              <h4 className="font-satoshi-bold font-bold text-lg mt-2 mb-4 text-white">
                 "In the realm of AI, agency is the next frontier..."
               </h4>
               <div className="flex items-center">
@@ -296,8 +296,8 @@ export default function TechnologyPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-ibm-plex text-sm text-white">Abhishek Kumar</div>
-                  <div className="font-ibm-plex-mono text-xs text-white/70">Founder</div>
+                  <div className="font-satoshi-regular text-sm text-white">Abhishek Kumar</div>
+                  <div className="font-satoshi-regular-mono text-xs text-white/70">Founder</div>
                 </div>
               </div>
             </div>

@@ -89,10 +89,10 @@ export default function BlogPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               Blog & Insights
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               Quick reads, long reflections, and insightful essays on innovation, disruption, and invention.
             </p>
           </div>
@@ -107,22 +107,22 @@ export default function BlogPage() {
               <div className="grid md:grid-cols-2">
                 <div className="p-10">
                   <div className="mb-4">
-                    <span className={`inline-flex rounded-full px-3 py-1 text-xs font-ibm-plex font-medium ${categoryColors[post.category as keyof typeof categoryColors]}`}>
+                    <span className={`inline-flex rounded-full px-3 py-1 text-xs font-satoshi-regular font-medium ${categoryColors[post.category as keyof typeof categoryColors]}`}>
                       {post.category}
                     </span>
                   </div>
-                  <h2 className="font-inter font-bold text-3xl mb-4 text-quantum-blue">
+                  <h2 className="font-satoshi-bold font-bold text-3xl mb-4 text-quantum-blue">
                     {post.title}
                   </h2>
-                  <p className="font-ibm-plex text-gray-600 mb-6">
+                  <p className="font-satoshi-regular text-gray-600 mb-6">
                     {post.excerpt}
                   </p>
                   <div className="flex items-center justify-between">
-                    <div className="font-ibm-plex text-sm text-gray-500">
+                    <div className="font-satoshi-regular text-sm text-gray-500">
                       {post.date} • {post.readTime}
                     </div>
                     <button 
-                      className="text-signal-violet font-ibm-plex font-medium hover:text-signal-violet/80 flex items-center"
+                      className="text-signal-violet font-satoshi-regular font-medium hover:text-signal-violet/80 flex items-center"
                       onClick={() => window.alert(`Read full article: ${post.title}`)}
                     >
                       Read Article
@@ -140,8 +140,8 @@ export default function BlogPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                       </div>
-                      <h3 className="font-inter font-bold text-xl mb-2">Featured Article</h3>
-                      <p className="font-ibm-plex text-fog-gray/90">
+                      <h3 className="font-satoshi-bold font-bold text-xl mb-2">Featured Article</h3>
+                      <p className="font-satoshi-regular text-fog-gray/90">
                         Our latest and most insightful reflections on AI innovation.
                       </p>
                     </div>
@@ -156,28 +156,28 @@ export default function BlogPage() {
       {/* Recent Posts */}
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Recent Posts</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Recent Posts</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             {blogPosts.filter(post => !post.featured).map((post, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 shadow-sm">
                 <div className="mb-4">
-                  <span className={`inline-flex rounded-full px-3 py-1 text-xs font-ibm-plex font-medium ${categoryColors[post.category as keyof typeof categoryColors]}`}>
+                  <span className={`inline-flex rounded-full px-3 py-1 text-xs font-satoshi-regular font-medium ${categoryColors[post.category as keyof typeof categoryColors]}`}>
                     {post.category}
                   </span>
                 </div>
-                <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+                <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                   {post.title}
                 </h3>
-                <p className="font-ibm-plex text-gray-600 mb-6">
+                <p className="font-satoshi-regular text-gray-600 mb-6">
                   {post.excerpt}
                 </p>
                 <div className="flex items-center justify-between">
-                  <div className="font-ibm-plex text-sm text-gray-500">
+                  <div className="font-satoshi-regular text-sm text-gray-500">
                     {post.date} • {post.readTime}
                   </div>
                   <button 
-                    className="text-signal-violet font-ibm-plex font-medium hover:text-signal-violet/80 flex items-center"
+                    className="text-signal-violet font-satoshi-regular font-medium hover:text-signal-violet/80 flex items-center"
                     onClick={() => window.alert(`Read full article: ${post.title}`)}
                   >
                     Read Article
@@ -195,29 +195,29 @@ export default function BlogPage() {
       {/* Categories Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue">Categories</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue">Categories</h2>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <button 
-              className="bg-signal-violet/20 text-signal-violet font-ibm-plex py-3 px-6 rounded-lg hover:bg-signal-violet/30 transition-colors"
+              className="bg-signal-violet/20 text-signal-violet font-satoshi-regular py-3 px-6 rounded-lg hover:bg-signal-violet/30 transition-colors"
               onClick={() => window.alert("Filter by Future AI")}
             >
               Future AI
             </button>
             <button 
-              className="bg-pulse-teal/20 text-pulse-teal font-ibm-plex py-3 px-6 rounded-lg hover:bg-pulse-teal/30 transition-colors"
+              className="bg-pulse-teal/20 text-pulse-teal font-satoshi-regular py-3 px-6 rounded-lg hover:bg-pulse-teal/30 transition-colors"
               onClick={() => window.alert("Filter by Data Practices")}
             >
               Data Practices
             </button>
             <button 
-              className="bg-quantum-blue/20 text-quantum-blue font-ibm-plex py-3 px-6 rounded-lg hover:bg-quantum-blue/30 transition-colors"
+              className="bg-quantum-blue/20 text-quantum-blue font-satoshi-regular py-3 px-6 rounded-lg hover:bg-quantum-blue/30 transition-colors"
               onClick={() => window.alert("Filter by Product Design")}
             >
               Product Design
             </button>
             <button 
-              className="bg-fog-gray text-quantum-blue font-ibm-plex py-3 px-6 rounded-lg hover:bg-fog-gray/80 transition-colors"
+              className="bg-fog-gray text-quantum-blue font-satoshi-regular py-3 px-6 rounded-lg hover:bg-fog-gray/80 transition-colors"
               onClick={() => window.alert("Filter by Research Reflections")}
             >
               Research Reflections
@@ -230,10 +230,10 @@ export default function BlogPage() {
       <section className="py-20 bg-quantum-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-inter font-bold text-3xl mb-6">
+            <h2 className="font-satoshi-bold font-bold text-3xl mb-6">
               Stay ahead of the curve
             </h2>
-            <p className="font-ibm-plex text-fog-gray/90 mb-8">
+            <p className="font-satoshi-regular text-fog-gray/90 mb-8">
               Get INORA's latest insights and research updates delivered directly to your inbox.
             </p>
             
@@ -244,8 +244,8 @@ export default function BlogPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="font-inter font-bold text-2xl mb-2">Thank You!</h3>
-                <p className="font-ibm-plex text-fog-gray/90">
+                <h3 className="font-satoshi-bold font-bold text-2xl mb-2">Thank You!</h3>
+                <p className="font-satoshi-regular text-fog-gray/90">
                   You've successfully subscribed to our newsletter. Keep an eye on your inbox for our latest updates.
                 </p>
               </div>
@@ -254,7 +254,7 @@ export default function BlogPage() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="px-4 py-3 rounded-lg font-ibm-plex flex-grow bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/30"
+                  className="px-4 py-3 rounded-lg font-satoshi-regular flex-grow bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/30"
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}

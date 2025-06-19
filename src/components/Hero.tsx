@@ -16,15 +16,14 @@ export default function Hero() {
         }} />
       </div>{/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="font-inter font-extrabold text-6xl md:text-8xl lg:text-9xl mb-8 tracking-tight leading-tight animate-fade-in-down">
+        <div className="text-center">          <h1 className="font-satoshi-bold font-extrabold text-6xl md:text-8xl lg:text-9xl mb-8 tracking-tight leading-tight animate-fade-in-down">
             <span className="bg-gradient-to-r from-white via-white to-fog-gray/80 bg-clip-text text-transparent drop-shadow-lg">
               Engineering the Edge of Possibility..
             </span>
           </h1>
-          <p className="font-ibm-plex text-lg md:text-xl lg:text-2xl text-fog-gray/90 max-w-4xl mx-auto mb-10 animate-fade-in">
+          <p className="font-satoshi-regular text-lg md:text-xl lg:text-2xl text-fog-gray/90 max-w-4xl mx-auto mb-10 animate-fade-in">
             Researching and developing cutting-edge tools in Artificial Intelligence, Computer Vision, Drone Technology, and Agentic AI Systems.
-          </p>          <div className="flex flex-col sm:flex-row justify-center gap-6 animate-fade-in-up">
+          </p><div className="flex flex-col sm:flex-row justify-center gap-6 animate-fade-in-up">
             <Link href="/data-services">
               <Button size="lg" className="px-8 py-4 text-lg transform hover:scale-105 transition-transform duration-300">
                 Explore Data Services
@@ -41,20 +40,19 @@ export default function Hero() {
       <div className="relative mt-24 bg-white/5 py-10 backdrop-blur-sm animate-fade-in">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div className="transform hover:scale-110 transition-all duration-500 hover:bg-white/10 rounded-lg p-4 border border-transparent hover:border-white/10 animate-float">
-              <div className="text-4xl md:text-5xl font-inter font-bold text-pulse-teal animate-pulse-slow">7</div>
+            <div className="transform hover:scale-110 transition-all duration-500 hover:bg-white/10 rounded-lg p-4 border border-transparent hover:border-white/10 animate-float">              <div className="text-4xl md:text-5xl font-satoshi-bold font-bold text-pulse-teal animate-pulse-slow">7</div>
               <div className="text-sm md:text-base text-fog-gray/80 mt-2">Patents Filed</div>
             </div>
             <div className="transform hover:scale-110 transition-all duration-500 hover:bg-white/10 rounded-lg p-4 border border-transparent hover:border-white/10" style={{ animationDelay: '1s' }}>
-              <div className="text-4xl md:text-5xl font-inter font-bold text-pulse-teal animate-pulse-slow">100K+</div>
+              <div className="text-4xl md:text-5xl font-satoshi-bold font-bold text-pulse-teal animate-pulse-slow">100K+</div>
               <div className="text-sm md:text-base text-fog-gray/80 mt-2">Data Samples</div>
             </div>
             <div className="transform hover:scale-110 transition-all duration-500 hover:bg-white/10 rounded-lg p-4 border border-transparent hover:border-white/10 animate-float" style={{ animationDelay: '1.5s' }}>
-              <div className="text-4xl md:text-5xl font-inter font-bold text-pulse-teal animate-pulse-slow">5</div>
+              <div className="text-4xl md:text-5xl font-satoshi-bold font-bold text-pulse-teal animate-pulse-slow">5</div>
               <div className="text-sm md:text-base text-fog-gray/80 mt-2">Licenses Granted</div>
             </div>
             <div className="transform hover:scale-110 transition-all duration-500 hover:bg-white/10 rounded-lg p-4 border border-transparent hover:border-white/10" style={{ animationDelay: '0.5s' }}>
-              <div className="text-4xl md:text-5xl font-inter font-bold text-pulse-teal animate-pulse-slow">20+</div>
+              <div className="text-4xl md:text-5xl font-satoshi-bold font-bold text-pulse-teal animate-pulse-slow">20+</div>
               <div className="text-sm md:text-base text-fog-gray/80 mt-2">Research Articles</div>
             </div>
           </div>

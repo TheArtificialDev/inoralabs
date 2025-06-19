@@ -69,10 +69,10 @@ export default function AboutPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               About INORA LABs
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               We're on a mission to turn bold ideas into real-world innovations, pushing the boundaries of what's possible.
             </p>
           </div>
@@ -84,24 +84,24 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="font-inter font-bold text-3xl mb-6 text-quantum-blue">Our Founding Story</h2>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <h2 className="font-satoshi-bold font-bold text-3xl mb-6 text-quantum-blue">Our Founding Story</h2>
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 INORA LABs began in 2023 as a vision to turn high-level ideas into real-world innovations. What started as a small experiment has grown into a driving force in India's research ecosystem.
               </p>
-              <p className="font-ibm-plex text-gray-600 mb-6">
+              <p className="font-satoshi-regular text-gray-600 mb-6">
                 We identified a gap between theoretical research and practical application, especially in the fields of AI, computer vision, and drone technology. Our approach combines rigorous research with a focus on creating technologies that solve real problems.
               </p>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Today, we continue to push tech frontiers across multiple verticals, developing patented technologies that power the next generation of intelligent systems.
               </p>
             </div>
             <div className="bg-fog-gray rounded-2xl p-10">
               <div className="border-l-4 border-signal-violet pl-6">
-                <h3 className="font-inter font-bold text-2xl mb-4 text-quantum-blue">Founder's Note</h3>
-                <p className="font-ibm-plex text-gray-600 italic mb-6">
+                <h3 className="font-satoshi-bold font-bold text-2xl mb-4 text-quantum-blue">Founder's Note</h3>
+                <p className="font-satoshi-regular text-gray-600 italic mb-6">
                   "I started INORA with a simple belief—that our boldest ideas deserve to be built. Every breakthrough begins with the willingness to try. Our work is driven by the conviction that innovation should not be confined to papers and presentations, but should live in the real world, making a tangible difference."
                 </p>
-                <div className="font-ibm-plex font-medium text-quantum-blue">
+                <div className="font-satoshi-regular font-medium text-quantum-blue">
                   Abhishek Kumar, Founder
                 </div>
               </div>
@@ -113,7 +113,7 @@ export default function AboutPage() {
       {/* Core Values */}
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl mb-12 text-quantum-blue text-center">Our Core Values</h2>
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-12 text-quantum-blue text-center">Our Core Values</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {coreValues.map((value, index) => (
@@ -124,10 +124,10 @@ export default function AboutPage() {
                 <div className="text-pulse-teal mb-6">
                   {value.icon}
                 </div>
-                <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+                <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                   {value.title}
                 </h3>
-                <p className="font-ibm-plex text-gray-600">
+                <p className="font-satoshi-regular text-gray-600">
                   {value.description}
                 </p>
               </div>
@@ -139,10 +139,10 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 bg-quantum-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-inter font-bold text-3xl mb-6">
+          <h2 className="font-satoshi-bold font-bold text-3xl mb-6">
             Join us on our journey
           </h2>
-          <p className="font-ibm-plex text-fog-gray/90 max-w-2xl mx-auto mb-8">
+          <p className="font-satoshi-regular text-fog-gray/90 max-w-2xl mx-auto mb-8">
             We're always looking for partners, collaborators, and curious minds to join us in our mission to Engineer the Edge of Possibility..
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

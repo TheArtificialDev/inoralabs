@@ -9,10 +9,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="grid md:grid-cols-5 gap-8 items-start">
           <div className="md:col-span-2">
-            <h2 className="font-inter font-bold text-2xl mb-4">
+            <h2 className="font-satoshi-bold font-bold text-2xl mb-4">
               Innovate with INORA
             </h2>
-            <p className="font-ibm-plex text-sm text-fog-gray/80 mb-5">
+            <p className="font-satoshi-regular text-sm text-fog-gray/80 mb-5">
               Researching and developing cutting-edge tools in AI, CV, and beyond. Ready to collaborate on the next breakthrough?
             </p>
             <Link href="/contact">
@@ -30,8 +30,8 @@ export default function Footer() {
         <div className="mt-6 pt-6 border-t border-white/10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
             <div>
-              <h4 className="font-inter font-bold mb-3 text-white">Technologies</h4>
-              <ul className="space-y-1 font-ibm-plex">
+              <h4 className="font-satoshi-bold font-bold mb-3 text-white">Technologies</h4>
+              <ul className="space-y-1 font-satoshi-regular">
                 <li>
                   <Link href="/technology" className="text-fog-gray/80 hover:text-white transition-colors">
                     AI & ML
@@ -55,8 +55,8 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="font-inter font-bold mb-3 text-white">Services</h4>
-              <ul className="space-y-1 font-ibm-plex">
+              <h4 className="font-satoshi-bold font-bold mb-3 text-white">Services</h4>
+              <ul className="space-y-1 font-satoshi-regular">
                 <li>
                   <Link href="/data-services" className="text-fog-gray/80 hover:text-white transition-colors">
                     Custom Datasets
@@ -80,8 +80,8 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="font-inter font-bold mb-3 text-white">Company</h4>
-              <ul className="space-y-1 font-ibm-plex">
+              <h4 className="font-satoshi-bold font-bold mb-3 text-white">Company</h4>
+              <ul className="space-y-1 font-satoshi-regular">
                 <li>
                   <Link href="/" className="text-fog-gray/80 hover:text-white transition-colors">
                     Home
@@ -105,8 +105,8 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="font-inter font-bold mb-3 text-white">Resources</h4>
-              <ul className="space-y-1 font-ibm-plex">
+              <h4 className="font-satoshi-bold font-bold mb-3 text-white">Resources</h4>
+              <ul className="space-y-1 font-satoshi-regular">
                 <li>
                   <Link href="/blog" className="text-fog-gray/80 hover:text-white transition-colors">
                     Blog
@@ -127,7 +127,7 @@ export default function Footer() {
           </div>
           
           <div className="mt-6 pt-4 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
-            <div className="font-ibm-plex text-xs text-fog-gray/60 mb-4 md:mb-0">
+            <div className="font-satoshi-regular text-xs text-fog-gray/60 mb-4 md:mb-0">
               <p>© 2025 INORA LABs. All rights reserved.</p>
             </div>
             <div className="flex space-x-6">

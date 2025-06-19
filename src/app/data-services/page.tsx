@@ -56,10 +56,10 @@ export default function DataServicesPage() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="font-inter font-bold text-4xl md:text-5xl mb-6">
+            <h1 className="font-satoshi-bold font-bold text-4xl md:text-5xl mb-6">
               Data Services
             </h1>
-            <p className="font-ibm-plex text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
+            <p className="font-satoshi-regular text-lg md:text-xl text-fog-gray/90 max-w-3xl mx-auto">
               High-quality data is the foundation of exceptional AI. We provide specialized data services to power your most ambitious projects.
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function DataServicesPage() {
         {/* Services Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center">
+          <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center">
             What We Offer
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -77,10 +77,10 @@ export default function DataServicesPage() {
                 <div className="text-pulse-teal mb-6">
                   {service.icon}
                 </div>
-                <h3 className="font-inter font-bold text-2xl mb-4 text-quantum-blue">
+                <h3 className="font-satoshi-bold font-bold text-2xl mb-4 text-quantum-blue">
                   {service.title}
                 </h3>
-                <p className="font-ibm-plex text-gray-600 mb-6">
+                <p className="font-satoshi-regular text-gray-600 mb-6">
                   {service.description}
                 </p>
                 <Button variant="secondary" size="sm">
@@ -96,10 +96,10 @@ export default function DataServicesPage() {
       <section className="py-20 bg-quantum-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-inter font-bold text-3xl md:text-4xl mb-6">
+            <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl mb-6">
               Compliance & Quality
             </h2>
-            <p className="font-ibm-plex text-fog-gray/90">
+            <p className="font-satoshi-regular text-fog-gray/90">
               Our pipelines follow strict quality benchmarks and include anonymization, human oversight, and validation.
             </p>
           </div>
@@ -111,10 +111,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-white">
                 Privacy & Anonymization
               </h3>
-              <p className="font-ibm-plex text-fog-gray/80">
+              <p className="font-satoshi-regular text-fog-gray/80">
                 All sensitive data is handled with rigorous anonymization processes to protect privacy.
               </p>
             </div>
@@ -125,10 +125,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-white">
                 Human Oversight
               </h3>
-              <p className="font-ibm-plex text-fog-gray/80">
+              <p className="font-satoshi-regular text-fog-gray/80">
                 Expert human reviewers ensure quality, consistency and accuracy throughout our data pipelines.
               </p>
             </div>
@@ -139,10 +139,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-white">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-white">
                 Validation Protocols
               </h3>
-              <p className="font-ibm-plex text-fog-gray/80">
+              <p className="font-satoshi-regular text-fog-gray/80">
                 Multi-stage validation ensures that all data meets or exceeds quality benchmarks before delivery.
               </p>
             </div>
@@ -153,7 +153,7 @@ export default function DataServicesPage() {
       {/* Use Cases */}
       <section className="py-20 bg-fog-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-inter font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center">
+          <h2 className="font-satoshi-bold font-bold text-3xl md:text-4xl text-quantum-blue mb-12 text-center">
             Use Cases
           </h2>
           <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -164,10 +164,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Training Hinglish Chatbots
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Our specialized text corpora enable better understanding of code-mixed language patterns common in Indian English conversations.
               </p>
             </div>
@@ -179,10 +179,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Vision Models for Rural India
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Our diverse visual datasets capture the unique aspects of rural Indian environments for more accurate computer vision applications.
               </p>
             </div>
@@ -193,10 +193,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Drone Surveillance in Agritech
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Our specialized drone imagery datasets help agricultural models identify crop health, pest infestations, and irrigation issues with high accuracy.
               </p>
             </div>
@@ -208,10 +208,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8M12 8v8" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Medical Imaging Diagnostics
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 AI-powered analysis of X-rays and MRIs for faster, more accurate medical diagnoses.
               </p>
             </div>
@@ -223,10 +223,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Financial Fraud Detection
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Leveraging transaction data to identify and prevent fraudulent activities in real time.
               </p>
             </div>
@@ -237,10 +237,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Smart City Traffic Analytics
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Real-time traffic flow and congestion analysis for urban planning and smart city solutions.
               </p>
             </div>
@@ -251,10 +251,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Retail Customer Insights
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Analyzing in-store and online behavior to optimize product placement and marketing.
               </p>
             </div>
@@ -265,10 +265,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Voice Recognition for Regional Languages
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Building robust voice assistants for underrepresented Indian languages and dialects.
               </p>
             </div>
@@ -280,10 +280,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8v8M8 8v8" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Satellite Image Analysis
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Extracting actionable insights from satellite imagery for disaster response and land use.
               </p>
             </div>
@@ -295,10 +295,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v8" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Document OCR & Automation
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Automating document processing and extraction for finance, legal, and government sectors.
               </p>
             </div>
@@ -309,10 +309,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Industrial IoT Data Streams
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Integrating and analyzing sensor data from industrial equipment for predictive maintenance.
               </p>
             </div>
@@ -323,10 +323,10 @@ export default function DataServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="font-inter font-bold text-xl mb-4 text-quantum-blue">
+              <h3 className="font-satoshi-bold font-bold text-xl mb-4 text-quantum-blue">
                 Personalized Learning Analytics
               </h3>
-              <p className="font-ibm-plex text-gray-600">
+              <p className="font-satoshi-regular text-gray-600">
                 Using data to tailor educational content and track student progress for better outcomes.
               </p>
             </div>
@@ -338,10 +338,10 @@ export default function DataServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-signal-violet text-white rounded-2xl p-8 md:p-12 text-center">
-            <h2 className="font-inter font-bold text-3xl mb-4">
+            <h2 className="font-satoshi-bold font-bold text-3xl mb-4">
               Need domain-specific data? Let's talk.
             </h2>
-            <p className="font-ibm-plex text-fog-gray/90 max-w-2xl mx-auto mb-8">
+            <p className="font-satoshi-regular text-fog-gray/90 max-w-2xl mx-auto mb-8">
               Our team can help you identify and build the right dataset for your specific AI and machine learning needs.
             </p>
             <a href="/contact">

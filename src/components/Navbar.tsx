@@ -80,31 +80,31 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link href="/" className="font-inter font-bold text-quantum-blue text-2xl">
+            <Link href="/" className="font-satoshi-bold font-bold text-quantum-blue text-2xl">
               INORA LABs
             </Link>
             
             {/* Navigation Links */}
             <div className="hidden md:flex items-center space-x-6">
-              <Link href="/technology" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/technology" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 Technology
               </Link>
-              <Link href="/data-services" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/data-services" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 Data Services
               </Link>
-              <Link href="/patents" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/patents" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 Patents
               </Link>
-              <Link href="/research" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/research" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 Research
               </Link>
-              <Link href="/blog" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/blog" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 Blog
               </Link>
-              <Link href="/about" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/about" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 About
               </Link>
-              <Link href="/careers" className="font-ibm-plex text-quantum-blue hover:text-signal-violet transition-colors">
+              <Link href="/careers" className="font-satoshi-regular text-quantum-blue hover:text-signal-violet transition-colors">
                 Careers
               </Link>
               <Link href="/contact">
@@ -137,49 +137,49 @@ export default function Navbar() {
             <div className="px-4 pt-2 pb-3 space-y-3">
               <Link 
                 href="/technology" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Technology
               </Link>
               <Link 
                 href="/data-services" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Data Services
               </Link>
               <Link 
                 href="/patents" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Patents
               </Link>
               <Link 
                 href="/research" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Research
               </Link>
               <Link 
                 href="/blog" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link 
                 href="/about" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 About
               </Link>
               <Link 
                 href="/careers" 
-                className="block font-ibm-plex text-quantum-blue hover:text-signal-violet py-2"
+                className="block font-satoshi-regular text-quantum-blue hover:text-signal-violet py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Careers
