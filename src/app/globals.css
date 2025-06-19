@@ -1,26 +1,121 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1.2s ease-out;
+  }
+  .animate-fade-in-down {
+    animation: fadeInDown 1.2s ease-out;
+  }
+  .animate-fade-in-up {
+    animation: fadeInUp 1.2s ease-out;
+  }
+  .animate-pulse-slow {
+    animation: pulseSlow 4s infinite;
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@layer base {
+  :root {
+    /* Font variables are set by next/font and applied via html class */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased font-ibm-plex;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-inter font-bold text-quantum-blue;
+  }
+
+  p {
+    @apply font-ibm-plex text-gray-600;
+  }
+
+  /* Links */
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Code blocks */
+  code {
+    @apply font-ibm-plex-mono;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center font-inter font-medium rounded-full transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-signal-violet text-white hover:bg-signal-violet/90;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-fog-gray text-quantum-blue hover:border-quantum-blue;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-pulse-teal to-signal-violet;
+  }
 }
